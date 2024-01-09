@@ -86,3 +86,5 @@
 - #### align-items
     - as it is like flexbox
 
+- stretch: stretch all columns at viewport and took all of the place. And each column/ row will be stretch at same percentage
+- we can use fraction at grid-row and at grid-column
