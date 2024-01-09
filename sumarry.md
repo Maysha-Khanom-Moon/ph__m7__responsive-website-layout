@@ -36,3 +36,4 @@
 - #### flex-direction
     - flex is uni-directional
     - row(default), column, column-reverse, row-reverse
+    - for column: axes are interchanged their direction
