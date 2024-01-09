@@ -76,3 +76,13 @@
     - : 200px auto 100px; means 1st column is 200px and last column is 100px. And 2nd column is the remaining part
 
 - grid element distribution: left to right then go to the new line.
+
+- #### grid-tamplate-rows
+    - as it is like grid-tamplate-column
+
+- #### justify-content
+    - as it is like flexbox
+
+- #### align-items
+    - as it is like flexbox
+
