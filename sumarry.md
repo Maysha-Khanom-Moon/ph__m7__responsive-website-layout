@@ -29,11 +29,16 @@
 
 - #### justify-content
     - it works horizontally
-    - left(default), center, right, space-between, space-around, space-evenly
+    - flex-start(default), center, flex-end, space-between, space-around, space-evenly
 - #### align-items
     - it works vertically
     - flex-start(default), flex-end, center
 - #### flex-direction
     - flex is uni-directional
     - row(default), column, column-reverse, row-reverse
-    - for column: axes are interchanged their direction
+    - for column: axes are interchanged their direction. anti-clockwise 90deg
+
+- #### flex-wrap
+    - without wrap: element will shrinked. no scrollbar added
+    - wrap: no shrinking. Go to the new line. For single element scrollbar added.
+    - no-wrap, wrap, wrap-reverse
