@@ -42,3 +42,5 @@
     - without wrap: element will shrinked. no scrollbar added
     - wrap: no shrinking. Go to the new line. For single element scrollbar added.
     - no-wrap, wrap, wrap-reverse
+
+- display: flex; by default make the child element height according to large child height, if height is not declared
