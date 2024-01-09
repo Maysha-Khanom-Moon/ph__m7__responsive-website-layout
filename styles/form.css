@@ -11,4 +11,9 @@ nav a {
 
 form {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid blueviolet;
+    gap: 20px;
+    width: 50%;
 }

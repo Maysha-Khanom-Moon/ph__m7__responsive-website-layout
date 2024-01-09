@@ -36,7 +36,7 @@
 - #### flex-direction
     - flex is uni-directional
     - row(default), column, column-reverse, row-reverse
-    - for column: axes are interchanged their direction. anti-clockwise 90deg
+    - for column: axes are interchanged their direction. anti-clockwise 90deg. so main axis is vertically and cross axis horizontally.
 
 - #### flex-wrap
     - without wrap: element will shrinked. no scrollbar added
@@ -44,3 +44,14 @@
     - no-wrap, wrap, wrap-reverse
 
 - display: flex; by default make the child element height according to large child height, if height is not declared
+
+- #### gap
+    - it just create gap between child following main axis. its not included to the parent's height
+
+
+
+### extra
+- if I put 'required" into the input element then browser auto-matically will notify the user to fill-up the input-bar before submit.
+- to center a element: margin auto or position absolute or flexbox or grid
+- if element width define by % then it never move by normal display: flex; justify-content.
+    
