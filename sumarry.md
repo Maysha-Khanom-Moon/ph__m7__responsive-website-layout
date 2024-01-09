@@ -54,4 +54,4 @@
 - if I put 'required" into the input element then browser auto-matically will notify the user to fill-up the input-bar before submit.
 - to center a element: margin auto or position absolute or flexbox or grid
 - if element width define by % then it never move by normal display: flex; justify-content.
-    
+    - solution: wrap whole element via a div and use flex at the parent element.
