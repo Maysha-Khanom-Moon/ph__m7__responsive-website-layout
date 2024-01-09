@@ -29,7 +29,10 @@
 
 - #### justify-content
     - it works horizontally
-    - center, left, right, space-between, space-around, space-evenly
+    - left(default), center, right, space-between, space-around, space-evenly
 - #### align-items
     - it works vertically
-    - flex-start, flex-end, center
+    - flex-start(default), flex-end, center
+- #### flex-direction
+    - flex is uni-directional
+    - row(default), column, column-reverse, row-reverse

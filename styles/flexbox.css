@@ -1,7 +1,10 @@
 .container {
     border: 5px solid cadetblue;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: flex-end;
+    flex-direction: column;
 }
 
 .box {
