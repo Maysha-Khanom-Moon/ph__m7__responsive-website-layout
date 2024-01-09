@@ -24,6 +24,7 @@
 <br>
 
 ## flexbox layout
+--> flex is uni-directional
 --> flex used at parent element
 - display: flex;
 
@@ -33,8 +34,8 @@
 - #### align-items
     - it works vertically
     - flex-start(default), flex-end, center
+
 - #### flex-direction
-    - flex is uni-directional
     - row(default), column, column-reverse, row-reverse
     - for column: axes are interchanged their direction. anti-clockwise 90deg. so main axis is vertically and cross axis horizontally.
 
@@ -48,6 +49,7 @@
 - #### gap
     - it just create gap between child following main axis. its not included to the parent's height
 
+<br>
 
 
 ### extra
@@ -57,3 +59,20 @@
     - solution: wrap whole element via a div and use flex at the parent element.
     - actually need space to move the element.
     - it also applicable for align-items.
+
+<br>
+
+
+## Grid layout
+--> grid is bi-directional
+
+- display: grid; it's not matter if i just use this line only
+
+- #### grid-template-columns
+    - : 200px 300px 400px; means 3 column will created. 1st column is 200px, 2nd is 300px and 3rd one is 400px. We can change the column number and column size
+    - : repeat(3, 200px); means 3 column will created and every column is 200px
+    - at the same time we can use both method.
+    - : repeat(3, 5fr) 2fr 1fr; means total viewport will divided by (3*5+2+1=18) parts. Then each of 1st 3 column will be 5 parts, total 15 parts. Also 6th 4th column will be 2 parts and last 5th column will be 1 part. (fr: fraction)
+    - : 200px auto 100px; means 1st column is 200px and last column is 100px. And 2nd column is the remaining part
+
+- grid element distribution: left to right then go to the new line.

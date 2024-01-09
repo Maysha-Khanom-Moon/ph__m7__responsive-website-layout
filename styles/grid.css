@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px 200px; */
+    /* grid-template-columns: repeat(3, 200px); */
+    /* grid-template-columns: repeat(2, 300px) 200px 100px; */
+    /* grid-template-columns: repeat(6, 1fr) 2fr; */
+    grid-template-columns: 200px auto 100px;
+}
+
+.item {
+    border: 1px solid aquamarine;
+}
