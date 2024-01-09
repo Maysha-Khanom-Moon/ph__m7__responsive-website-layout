@@ -1,0 +1,11 @@
+.container {
+    border: 5px solid cadetblue;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    border: 2px dashed tomato;
+    width: 100px;
+    height: 100px;
+}

@@ -20,3 +20,16 @@
 
 #### relative
 - %, em, rem, ex, ch, vh, vw, vmax, vmin
+
+<br>
+
+## flexbox layout
+--> flex used at parent element
+- display: flex;
+
+- #### justify-content
+    - it works horizontally
+    - center, left, right, space-between, space-around, space-evenly
+- #### align-items
+    - it works vertically
+    - flex-start, flex-end, center
