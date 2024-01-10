@@ -118,7 +118,7 @@
 4. image fluid
 5. two column: flex and use media query with flex
 6. multi column: grid layout and use media query with grid
-7. menu responsive: will neew javascript
+7. menu responsive: will need javascript
 
 <br>
 
