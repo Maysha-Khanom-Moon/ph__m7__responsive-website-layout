@@ -1,0 +1,23 @@
+.calender {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 100px);
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+.date, .day {
+    background-color: skyblue;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.day {
+    background-color: lightgray;
+    font-size: 1em;
+}
