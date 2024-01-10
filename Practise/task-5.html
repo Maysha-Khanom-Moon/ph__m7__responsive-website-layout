@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design responsive layout - I</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+        ul {
+            display: grid;
+            gap: 1rem;
+            grid-template-columns: auto;
+            height: 50vh;
+            align-items: center;
+            justify-content: center;
+        }
+        li {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            gap: 1rem;
+        }
+
+        li img {
+            width: 50vw;
+            height: 50vh;
+        }
+
+        @media screen and (max-width: 760px) {
+            body {
+                margin: 0;
+            }
+            li {
+                display: grid;
+                grid-template-columns: auto;
+            }
+            li img {
+                width: 100vw;
+                height: auto;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <ul>
+        <li>
+            <div class="left">
+                <img src="../images/food.png" alt="">
+            </div>
+            <div class="right">
+                <h1>Post - 1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus maiores neque pariatur, numquam quia reiciendis est itaque ullam mollitia tempore fuga exercitationem, consequatur, dolorum ducimus? Quod perspiciatis nobis laboriosam? Tenetur, eos omnis? Fugiat consectetur quis veritatis iste laudantium voluptatum ipsa, saepe cupiditate deserunt suscipit optio quaerat libero in sit dicta possimus magni dignissimos nisi voluptates nemo adipisci. Dolores unde quam ad nostrum fugit architecto, repudiandae porro minima perspiciatis rerum sunt nihil! Nisi enim, voluptatem nesciunt maxime quam maiores labore porro quibusdam </p>
+            </div>
+        </li>
+        <li>
+            <div class="left">
+                <img src="../images/food.png" alt="">
+            </div>
+            <div class="right">
+                <h1>Post - 2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus maiores neque pariatur, numquam quia reiciendis est itaque ullam mollitia tempore fuga exercitationem, consequatur, dolorum ducimus? Quod perspiciatis nobis laboriosam? Tenetur, eos omnis? Fugiat consectetur quis veritatis iste laudantium voluptatum ipsa, saepe cupiditate deserunt suscipit optio quaerat libero in sit dicta possimus magni dignissimos nisi voluptates nemo adipisci. Dolores unde quam ad nostrum fugit architecto, repudiandae porro minima perspiciatis rerum sunt nihil! Nisi enim, voluptatem nesciunt maxime quam maiores labore porro quibusdam </p>
+            </div>
+        </li>
+        <li>
+            <div class="left">
+                <img src="../images/food.png" alt="">
+            </div>
+            <div class="right">
+                <h1>Post - 3</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus maiores neque pariatur, numquam quia reiciendis est itaque ullam mollitia tempore fuga exercitationem, consequatur, dolorum ducimus? Quod perspiciatis nobis laboriosam? Tenetur, eos omnis? Fugiat consectetur quis veritatis iste laudantium voluptatum ipsa, saepe cupiditate deserunt suscipit optio quaerat libero in sit dicta possimus magni dignissimos nisi voluptates nemo adipisci. Dolores unde quam ad nostrum fugit architecto, repudiandae porro minima perspiciatis rerum sunt nihil! Nisi enim, voluptatem nesciunt maxime quam maiores labore porro quibusdam </p>
+            </div>
+        </li>
+        <li>
+            <div class="left">
+                <img src="../images/food.png" alt="">
+            </div>
+            <div class="right">
+                <h1>Post - 4</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus maiores neque pariatur, numquam quia reiciendis est itaque ullam mollitia tempore fuga exercitationem, consequatur, dolorum ducimus? Quod perspiciatis nobis laboriosam? Tenetur, eos omnis? Fugiat consectetur quis veritatis iste laudantium voluptatum ipsa, saepe cupiditate deserunt suscipit optio quaerat libero in sit dicta possimus magni dignissimos nisi voluptates nemo adipisci. Dolores unde quam ad nostrum fugit architecto, repudiandae porro minima perspiciatis rerum sunt nihil! Nisi enim, voluptatem nesciunt maxime quam maiores labore porro quibusdam </p>
+            </div>
+        </li>
+        <li>
+            <div class="left">
+                <img src="../images/food.png" alt="">
+            </div>
+            <div class="right">
+                <h1>Post - 5</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus maiores neque pariatur, numquam quia reiciendis est itaque ullam mollitia tempore fuga exercitationem, consequatur, dolorum ducimus? Quod perspiciatis nobis laboriosam? Tenetur, eos omnis? Fugiat consectetur quis veritatis iste laudantium voluptatum ipsa, saepe cupiditate deserunt suscipit optio quaerat libero in sit dicta possimus magni dignissimos nisi voluptates nemo adipisci. Dolores unde quam ad nostrum fugit architecto, repudiandae porro minima perspiciatis rerum sunt nihil! Nisi enim, voluptatem nesciunt maxime quam maiores labore porro quibusdam </p>
+            </div>
+        </li>
+    </ul>
+</body>
+</html>
