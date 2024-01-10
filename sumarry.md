@@ -119,3 +119,20 @@
 5. two column: flex and use media query with flex
 6. multi column: grid layout and use media query with grid
 7. menu responsive: will neew javascript
+
+<br>
+
+
+## Grid vs Flexbox
+- dimension:
+    - grid: multi dimensional layout
+    - flexbox: one dimensional layout
+- flexibility:
+    - more flexible and complex
+    - less flexible and simple
+- uses:
+    - grid: complex design, gap between block element, overlap element, layout-first design
+    - flexbox: small design, align elements, content-first design
+
+<br>
+
