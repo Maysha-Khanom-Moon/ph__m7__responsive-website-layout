@@ -91,3 +91,20 @@
 - #### grid-row / grid-column
 - it's not clear properly.
 
+<br>
+
+## Breakpoint
+==> breakpoints are customizable widths that determine how responsive layout behaves across device or viewport sizes.
+*** it measure by bootstrap
+
+- breakpoints are the building blocks of responsive design.
+- Use media queries to architect css by breakpoint
+- mobile first, responsive design is the goal.
+
+- #### available breakpoints
+    - X-Small            -->    None  -->	<576px
+    - Small	             -->     sm   --> 	≥576px
+    - Medium             -->     md   -->   ≥768px
+    - Large	             -->     lg   --> 	≥992px
+    - Extra large        -->     xl   --> 	≥1200px
+    - Extra extra large  -->     xxl  -->	≥1400px
