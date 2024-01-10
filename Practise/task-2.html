@@ -8,18 +8,19 @@
     <style>
         .div-1 {
             grid-area: a;
+            background-color: salmon;
         }
         .div-2 {
             grid-area: b;
+            background-color: orange;
         }
         .div-3 {
             grid-area: c;
+            background-color: blueviolet;
         }
         .div-4 {
             grid-area: d;
-        }
-        .div-5 {
-            grid-area: e;
+            background-color: #727272;
         }
 
         .container {
@@ -27,12 +28,20 @@
             height: 100vh;
             background-color: black;
             display: grid;
+            grid-template-areas: 
+            'a a b b'
+            'a a c d'
+            ;
         }
 
         h1 {
             color: white;
             font-size: 2em;
+            margin: 1rem;
         }
+
+        
+
     </style>
 
 </head>
