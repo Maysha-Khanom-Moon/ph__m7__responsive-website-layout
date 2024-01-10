@@ -108,3 +108,14 @@
     - Large	             -->     lg   --> 	≥992px
     - Extra large        -->     xl   --> 	≥1200px
     - Extra extra large  -->     xxl  -->	≥1400px
+
+<br>
+
+## Seven Things need to make a website responsive
+1. Viewport meta tag
+2. css relative unit
+3. body max width and horizontal center align
+4. image fluid
+5. two column: flex and use media query with flex
+6. multi column: grid layout and use media query with grid
+7. menu responsive: will neew javascript
