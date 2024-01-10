@@ -9,14 +9,29 @@
         body {
             margin: 0;
             height: 100vh;
-            background-image: url("../images/food.png");
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: content-box;
+            overflow: hidden;
+        }
+        img {
+            height: 100%;
+            width: 100%;
+            display: block;
+        }
+
+        @media screen and (max-width: 1200px) {
+            img {
+                height: 100%;
+                width: auto;
+                display: block;
+            }
         }
     </style>
 </head>
 <body>
-    
+    <img src="../images/food.png" alt="">
 </body>
 </html>
