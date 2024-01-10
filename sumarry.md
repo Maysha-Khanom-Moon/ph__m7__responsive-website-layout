@@ -136,3 +136,11 @@
 
 <br>
 
+## media query
+- make responsive based on device
+- #### uses
+    - responsive web design
+    - different layouts depending on the size of the viewport
+    - check width and height of the viewport
+    - check orientation: landscape or orientation
+    - check resolution
